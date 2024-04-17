@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Fylo data storage component</title>
+</head>
+<body>
+  <div class="container">
+    <div class="fylo">
+        <img src="./images/logo.svg"  id="logo">
+      <div class="icons">
+        <div><img src="./images/icon-document.svg" alt="document"></div>
+        <div><img src="./images/icon-folder.svg" alt="folder"></div>
+        <div><img src="./images/icon-upload.svg" alt="upload"></div>
+      </div>
+    </div>
+
+    <div id="second">
+        <p id="storage"><strong id="number"></strong><sup> GB left</sup></p>
+
+      <div class="range">
+        <div class="line">
+          <div id="tri"></div>
+
+          <p>You've used <strong>815 GB</strong> of your storage</p>        
+
+          <div id="slider">
+            <div id="bar"><div id="ball"></div></div>
+          </div>
+          <div id="line-">
+            <span>0GB</span>
+            <span>1000GB</span>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
